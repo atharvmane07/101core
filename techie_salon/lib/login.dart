@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'register.dart';
 class MyLogin extends StatefulWidget {
   const MyLogin({Key? key}) : super(key: key);
 
@@ -105,7 +105,7 @@ class _MyLoginState extends State<MyLogin> {
                                   Navigator.pushNamed(context, 'register');
                                 },
                                 child: Text(
-                                  'Sign Up',
+                                  'Forgot password',
                                   textAlign: TextAlign.left,
                                   style: TextStyle(
                                       decoration: TextDecoration.underline,
@@ -115,9 +115,13 @@ class _MyLoginState extends State<MyLogin> {
                                 style: ButtonStyle(),
                               ),
                               TextButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    Navigator.push(context,MaterialPageRoute(builder: (context) => MyRegister(),),
+                                    );
+
+                                  },
                                   child: Text(
-                                    'Forgot Password',
+                                    'Sign Up',
                                     style: TextStyle(
                                       decoration: TextDecoration.underline,
                                       color: Color(0xff4c505b),
