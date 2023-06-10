@@ -17,14 +17,23 @@ class _MyLoginState extends State<MyLogin> {
       ),
       child: Scaffold(
         backgroundColor: Colors.transparent,
+        appBar: AppBar(
+          backgroundColor: Colors.black,
+          leading: IconButton(
+            icon: Icon(Icons.arrow_back),
+            onPressed: () {
+              Navigator.of(context).pop();
+            },
+          ),
+        ),
         body: Stack(
           children: [
             Container(),
             Container(
               padding: EdgeInsets.only(left: 35, top: 130),
               child: Text(
-                'Welcome\nBack',
-                style: TextStyle(color: Colors.white, fontSize: 33),
+                'Login\nPage',
+                style: TextStyle(color: Colors.black, fontSize: 33),
               ),
             ),
             SingleChildScrollView(
