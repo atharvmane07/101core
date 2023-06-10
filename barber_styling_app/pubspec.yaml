@@ -1,0 +1,24 @@
+name: barber_styling_app
+description: A barber styling app built with Flutter.
+
+environment:
+  sdk: ">=2.14.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.0
+  image_picker: ^0.8.0
+  path_provider: ^2.0.3
+  image: ^3.0.2
+
+
+  # Add any additional dependencies you may need for your app
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
