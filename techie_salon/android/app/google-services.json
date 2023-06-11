@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "244794789947",
+    "project_id": "techiesalon",
+    "storage_bucket": "techiesalon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244794789947:android:8f1ccbb58e19fbfa678c1e",
+        "android_client_info": {
+          "package_name": "com.yourdomain.techie_salon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244794789947-jcnatc2j1hjt8a2hpb0tkus77iecqmtq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5gXABzXEYMno4mJEi9pu9PywaPUdVrIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244794789947-jcnatc2j1hjt8a2hpb0tkus77iecqmtq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
