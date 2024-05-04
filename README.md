@@ -1,1 +1,1 @@
-# 101core
+#First hackathon project. Includes an app for salon 
